@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  width: 292px;
+}
+
+.popup-shell {
+  align-items: stretch;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.95), transparent 36%),
+    linear-gradient(145deg, #f4f7f1, #dfe7e1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.popup-shell h1 {
+  font-size: 21px;
+}
+
+.popup-shell p {
+  color: #5a6a61;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+
+.popup-controls {
+  display: grid;
+  gap: 9px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
